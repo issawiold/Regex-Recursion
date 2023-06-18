@@ -22,7 +22,7 @@ function pow(x, n) {
     // Write you logic here.
     function pow(x, n) {
         if (n==0){
-        return 1;}
+        return 1; }
         return x * pow(x, --n) ;
 }
 
